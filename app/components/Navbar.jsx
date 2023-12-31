@@ -30,7 +30,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-50 backdrop-blur backdrop-filter firefox:bg-opacity-90">
       <div className="flex container flex-wrap sm:max-w-xl md:max-w-full lg:max-w-screen-lg items-center justify-between mx-auto p-6 md:px-12">
         <Link
-          href="#home"
+          href={"/"}
           className="text-2xl md:text-4xl text-white font-medium">
           by MA👩‍💻
         </Link>

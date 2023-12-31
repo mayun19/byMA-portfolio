@@ -5,7 +5,7 @@ import { FiLinkedin, FiGithub } from "react-icons/fi";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="flex flex-row gap-5 md:gap-10 lg:py-16">
+    <section className="flex flex-row gap-5 md:gap-10 lg:py-16">
       <div className="flex flex-col gap-6">
         <h1 className="flex flex-col gap-6 text-center sm:text-left">
           <div className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-4xl sm:text-5xl lg:text-8xl font-bold lg:font-extrabold">
