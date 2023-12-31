@@ -45,7 +45,9 @@ const EmailSection = () => {
   }
 
   return (
-    <section className="grid md:grid-cols-2 mb-12 mt-0 py-24 gap-6 md:gap-14 relative">
+    <section
+      id="contact"
+      className="grid md:grid-cols-2 mb-12 mt-0 py-24 gap-6 md:gap-14 relative">
       <div className="absolute w-80 h-80 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full blur-lg top-full -left-4 transform -translate-x-1/2 sm:-translate-x-[90%] -translate-y-1/2"></div>
 
       <div>
