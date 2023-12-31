@@ -11,7 +11,7 @@ const ProjectsData = [
       "web-based tourism information system for Kampung Wisata Kauman",
     image: "/images/sakawisata.png",
     tag: ["All", "Fullstack"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/mayun19/sakawisata-web",
     previewUrl: "/",
   },
   {
@@ -21,17 +21,26 @@ const ProjectsData = [
       "an Employee Assets Management created for make it easier for users to request and monitor the employee assets",
     image: "/images/e-assets.png",
     tag: ["All", "Frontend"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/mayun19/Group4-Capstone-project",
     previewUrl: "/",
   },
   {
     id: 3,
+    title: "My Personal Website",
+    description: "my personal website built with Next.js and Tailwind CSS",
+    image: "/images/personal-web.png",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/mayun19/byMA-portfolio",
+    previewUrl: "https://www.mutiaraayun.site/",
+  },
+  {
+    id: 4,
     title: "Lazy Event",
     description:
       "an Event Planning App created for event planning management and the purpose of study in Sirclo Tech Academy.",
     image: "/images/lazyevent.png",
     tag: ["All", "Frontend"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/mayun19/Week8-EO",
     previewUrl: "/",
   },
 ];
