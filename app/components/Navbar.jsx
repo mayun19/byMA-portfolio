@@ -7,17 +7,14 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 const NavLinks = [
   {
-    id: 1,
     title: "Experiences",
     path: "#experiences",
   },
   {
-    id: 2,
     title: "Projects",
     path: "#projects",
   },
   {
-    id: 3,
     title: "Contact",
     path: "#contact",
   },
@@ -51,8 +48,8 @@ const Navbar = () => {
         </div>
         <div className="menu hidden md:block md:w-auto" id="navbar">
           <ul className="flex p-4 md:p-0 md: flex-row md:space-x-8 mt-0">
-            {NavLinks.map((link) => (
-              <li key={link.id}>
+            {NavLinks.map((link, index) => (
+              <li key={index}>
                 <NavLink href={link.path} title={link.title} />
               </li>
             ))}
